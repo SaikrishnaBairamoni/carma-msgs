@@ -1,0 +1,14 @@
+name: Test Auto Merge develop to develop-humble
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly on Monday
+  workflow_dispatch:  
+
+jobs:
+  call-merge-workflow:
+    uses: SaikrishnaBairamoni/reusableworkflows/.github/workflows/merge-develop-humble.yml@main
+    with:
+      branch_from: develop
+      branch_to: develop-humble
+      notify_team: Test-Team
