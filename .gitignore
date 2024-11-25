@@ -1,1 +1,7 @@
 # Covers Python
+
+# Reference: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+__pycache__/
+## THIS IS TO TEST THE MERGE CONFICTS DURING AUTO MERGE 
+
