@@ -5,6 +5,8 @@ This package is required for building most of the CARMAPlatform nodes
 
 To add this package to your CARMAPlatform project simply clone this repository into your colcon workspace.
 
+This is to test auto merge conflicts
+
 There are both ROS1 and ROS2 packages in this repo. Building of these packages will automatically toggle based on your ROS version, however,
 it is important to be careful to not mix the install path for the distributions. Therefore different install and build paths should be used for each ROS version.
 
